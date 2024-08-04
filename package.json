@@ -1,0 +1,19 @@
+{
+  "name": "advent-template-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "format": "npm run prettier && npm run lint -- --fix"
+  },
+  "private": true,
+  "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0"
+  }
+}
